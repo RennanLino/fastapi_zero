@@ -1,5 +1,6 @@
-from fastapi.testclient import TestClient  # type: ignore
 from http import HTTPStatus
+
+from fastapi.testclient import TestClient  # type: ignore
 
 from fastapi_zero.app import app
 
